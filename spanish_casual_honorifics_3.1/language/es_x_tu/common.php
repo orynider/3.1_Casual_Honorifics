@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
-	'USER_LANG'			=> 'es',
+	'USER_LANG'			=> 'es_x_tu',
 
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
@@ -60,21 +60,21 @@ $lang = array_merge($lang, array(
 	'6_MONTHS'		=> '6 meses',
 	'7_DAYS'		=> '7 días',
 
-	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Su cuenta ya ha sido activada',
-	'ACCOUNT_DEACTIVATED'			=> 'Su cuenta ha sido desactivada manualmente y solo puede ser reactivada por La Administración.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Su cuenta todavía no ha sido activada',
+	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Tu cuenta ya ha sido activada',
+	'ACCOUNT_DEACTIVATED'			=> 'Tu cuenta ha sido desactivada manualmente y solo puede ser reactivada por La Administración.',
+	'ACCOUNT_NOT_ACTIVATED'			=> 'Tu cuenta todavía no ha sido activada',
 	'ACP'							=> 'Ir al Panel de Control de Administración (PCA)',
 	'ACP_SHORT'						=> 'PCA',
 	'ACTIVE'						=> 'Activo',
-	'ACTIVE_ERROR'					=> 'El usuario especificado está inactivo de momento. Si tiene problemas para activar su cuenta por favor contacte con la Administración del Sitio.',
+	'ACTIVE_ERROR'					=> 'El usuario especificado está inactivo de momento. Si tienes problemas para activar tu cuenta, por favor contacta con la Administración del sitio.',
 	'ADMINISTRATOR'					=> 'Administrador',
 	'ADMINISTRATORS'				=> 'Administradores',
 	'AGE'							=> 'Edad',
 	'AIM'							=> 'AIM',
 	'AJAX_ERROR_TITLE'				=> 'Error AJAX',
-	'AJAX_ERROR_TEXT'				=> 'Algo salió mal al procesar su solicitud.',
+	'AJAX_ERROR_TEXT'				=> 'Algo salió mal al procesar tu solicitud.',
 	'AJAX_ERROR_TEXT_ABORT'			=> 'Solicitud abortada por el usuario.',
-	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Su solicitud ha agotado el tiempo, por favor, inténtelo de nuevo.',
+	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Tu solicitud ha agotado el tiempo, por favor, inténtalo de nuevo.',
 	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Algo salió mal con la solicitud y el servidor devuelve una respuesta no válida.',
 	'ALLOWED'						=> 'Permitido',
 	'ALL_FILES'						=> 'Todos los archivos',
@@ -84,8 +84,8 @@ $lang = array_merge($lang, array(
 	'ALL_TIMES'						=> 'Todos los horarios son <abbr title="%2$s">%1$s</abbr>',
 	'ALL_TOPICS'					=> 'Todos los Temas',
 	'AND'							=> 'Y',
-	'ARE_WATCHING_FORUM'			=> 'Está suscrito a recibir novedades en este Foro',
-	'ARE_WATCHING_TOPIC'			=> 'Está suscrito a recibir novedades en este Tema.',
+	'ARE_WATCHING_FORUM'			=> 'Estás suscrito a recibir novedades en este Foro',
+	'ARE_WATCHING_TOPIC'			=> 'Estás suscrito a recibir novedades en este Tema.',
 	'ASCENDING'						=> 'Ascendente',
 	'ATTACHMENTS'					=> 'Adjuntos',
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'El archivo de imagen que ha intentado adjuntar no es válido.',
