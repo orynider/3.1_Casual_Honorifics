@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'es',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para poder usar reCaptcha, debe crear una cuenta en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_LANG'				=> 'es_x_tu',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para poder usar reCaptcha, debes crear una cuenta en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'El código de confirmación visual que insertó era incorrecto',
+	'RECAPTCHA_INCORRECT'			=> 'El código de confirmación visual que has insertado era incorrecto',
 
 	'RECAPTCHA_PUBLIC'				=> 'Clave pública reCaptcha',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Su clave pública reCaptcha. Se pueden obtener las claves en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Tu clave pública reCaptcha. Se pueden obtener las claves en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Clave Privada reCaptcha',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Su clave privada reCaptcha. Se pueden obtener las claves en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Tu clave privada reCaptcha. Se pueden obtener las claves en <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'En un esfuerzo por prevenir insersiones automáticas requerimos que introduzca las dos palabras mostradas dentro del campo de texto.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Hubo un problema al conectar con el servicio RECAPTCHA: No se pudo abrir el socket. Inténtelo de nuevo más tarde.',
+	'RECAPTCHA_EXPLAIN'				=> 'En un esfuerzo por prevenir insersiones automáticas requerimos que introduzcas las dos palabras mostradas dentro del campo de texto.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Hubo un problema al conectar con el servicio RECAPTCHA: No se pudo abrir el socket. Inténtalo de nuevo más tarde.',
 ));
