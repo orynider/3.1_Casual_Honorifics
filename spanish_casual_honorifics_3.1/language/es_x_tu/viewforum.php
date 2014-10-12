@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> 'Anuncio',
 	'ICON_STICKY'			=> 'Nota',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'Ha sido notificado sobre este foro, por favor identifíquese para verlo.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Has sido notificado sobre este foro, por favor inicia sesión para verlo.',
 
 	'MARK_TOPICS_READ'		=> 'Marcar temas como leídos',
 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Mensajes nuevos [ Cerrado ]',
 	'NO_NEW_POSTS_HOT'		=> 'No hay mensajes nuevos [ Popular ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'No hay mensajes nuevos [ Cerrado ]',
-	'NO_READ_ACCESS'		=> 'No tiene los permisos requeridos para leer temas en este foro.',
+	'NO_READ_ACCESS'		=> 'No tienes los permisos requeridos para leer temas en este foro.',
 	'NO_UNREAD_POSTS_HOT'      => 'No hay mensajes sin leer [ Popular ]',
 	'NO_UNREAD_POSTS_LOCKED'   => 'No hay mensajes sin leer [ Cerrado ]',
 
