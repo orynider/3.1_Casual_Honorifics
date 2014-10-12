@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Los adjuntos han sido deshabilitados',
 
 	'BOOKMARK_ADDED'		=> 'Tema añadido correctamente a Favoritos.',
-	'BOOKMARK_ERR'			=> 'Añadido de tema a Favoritos fallido. Por favor, inténtelo de nuevo.',
+	'BOOKMARK_ERR'			=> 'Añadido de tema a Favoritos fallido. Por favor, inténtalo de nuevo.',
 	'BOOKMARK_REMOVED'		=> 'Eliminado correctamente el tema de Favoritos.',
 	'BOOKMARK_TOPIC'		=> 'Añadir tema a Favoritos',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Eliminar de Favoritos',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Borrar tema',
 	'DELETED_INFORMATION'	=> 'Borrado por %1$s el %2$s',
 	'DISAPPROVE'					=> 'Desaprobar',
-	'DOWNLOAD_NOTICE'		=> 'No tiene los permisos requeridos para ver los archivos adjuntos a este mensaje.',
+	'DOWNLOAD_NOTICE'		=> 'No tienes los permisos requeridos para ver los archivos adjuntos a este mensaje.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Última edición por %2$s el %3$s, editado %1$d vez en total.',
@@ -67,31 +67,31 @@ $lang = array_merge($lang, array(
 	'FORK_TOPIC'			=> 'Copiar tema',
 	'FULL_EDITOR'			=> 'Editor completo / Visualizar',
 
-	'LINKAGE_FORBIDDEN'		=> 'No está autorizado a ver, descargar o enlazar de/a este Sitio.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'Ha sido notificado sobre este tema, por favor identifíquese para verlo.',
-	'LOGIN_VIEWTOPIC'		=> 'La Administración del Sitio requiere que esté registrado e identificado para ver este tema.',
+	'LINKAGE_FORBIDDEN'		=> 'No estás autorizado a ver, descargar o enlazar de/a este sitio.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Has sido notificado sobre este tema, por favor inicia sesión para verlo.',
+	'LOGIN_VIEWTOPIC'		=> 'La Administración del sitio requiere que estés registrado e identificado para ver este tema.',
 
 	'MAKE_ANNOUNCE'				=> 'Cambiar a "Anuncio"',
 	'MAKE_GLOBAL'				=> 'Cambiar a "Global"',
 	'MAKE_NORMAL'				=> 'Cambiar a "Tema"',
 	'MAKE_STICKY'				=> 'Cambiar a "Nota"',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Puede seleccionar <strong>%d</strong> opción',
-		2	=> 'Puede seleccionar hasta <strong>%d</strong> opciones',
+		1	=> 'Puedes seleccionar <strong>%d</strong> opción',
+		2	=> 'Puedes seleccionar hasta <strong>%d</strong> opciones',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'El adjunto <strong>%s</strong> ya no está disponible',
 	'MOVE_TOPIC'				=> 'Mover tema',
 
-	'NO_ATTACHMENT_SELECTED'=> 'No ha seleccionado un adjunto para descargar o ver.',
+	'NO_ATTACHMENT_SELECTED'=> 'No has seleccionado un adjunto para descargar o ver.',
 	'NO_NEWER_TOPICS'		=> 'No hay temas nuevos en este foro',
 	'NO_OLDER_TOPICS'		=> 'No hay temas viejos en este foro',
 	'NO_UNREAD_POSTS'		=> 'No hay nuevos mensajes sin leer en este tema.',
-	'NO_VOTE_OPTION'		=> 'Debe especificar una opción cuando vote.',
+	'NO_VOTE_OPTION'		=> 'Debes especificar una opción cuando votes.',
 	'NO_VOTES'				=> 'No hay votos',
 
 	'POLL_ENDED_AT'			=> 'La encuesta terminó el %s',
 	'POLL_RUN_TILL'			=> 'La encuesta continúa hasta el %s',
-	'POLL_VOTED_OPTION'		=> 'Votó por esta opción',
+	'POLL_VOTED_OPTION'		=> 'Votasté por esta opción',
 	'POST_DELETED_RESTORE'	=> 'Este mensaje ha sido eliminado. Puede ser restaurado.',
 	'PRINT_TOPIC'			=> 'Vista para imprimir',
 
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d mensajes',
 	),
 	'VIEW_UNREAD_POST'		=> 'Primer mensaje sin leer',
-	'VOTE_SUBMITTED'		=> 'Su voto ha sido enviado',
+	'VOTE_SUBMITTED'		=> 'Tu voto ha sido enviado',
 	'VOTE_CONVERTED'		=> 'El cambio de voto no está soportado en encuestas convertidas.',
 
 ));
