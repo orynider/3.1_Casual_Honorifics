@@ -39,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'Añadir archivos',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Agregar archivos a la cola de subida y haga clic en el botón de inicio.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Agregar archivos a la cola de subida y haz clic en el botón de inicio.',
 	'PLUPLOAD_ALREADY_QUEUED'	=> '%s ya presente en la cola.',
 	'PLUPLOAD_CLOSE'			=> 'Cerrar',
-	'PLUPLOAD_DRAG'				=> 'Arrastre los archivos aquí.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'error de archivo duplicado.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'También puede adjuntar archivos arrastrándolos y soltándolos en el cuadro de mensaje.',
+	'PLUPLOAD_DRAG'				=> 'Arrastra los archivos aquí.',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Error de archivo duplicado.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'También puedes adjuntar archivos arrastrándolos y soltándolos en el cuadro de mensaje.',
 	'PLUPLOAD_ERR_INPUT'		=> 'No se ha podido abrir la secuencia de entrada.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'No se ha podido mover el archivo subido.',
 	'PLUPLOAD_ERR_OUTPUT'		=> 'No se ha podido abrir la secuencia de salida.',
