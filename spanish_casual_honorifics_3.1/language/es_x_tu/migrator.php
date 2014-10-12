@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_DONE'				=> 'Datos instalados: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Datos instalados: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migración instalada correctamente (omitido): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo salió mal en la solicitud y se produjo una excepción. Los cambios hechos antes de que ocurriera el error se invirtieron en la medida de nuestras capacidades, pero usted deberá comprobar los errores del foro.',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo salió mal en la solicitud y se produjo una excepción. Los cambios hechos antes de que ocurriera el error se invirtieron en la medida de nuestras capacidades, pero deberás comprobar los errores del foro.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración "%1$s" no se ha realizado, falta la migración "%2$s".',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
 
