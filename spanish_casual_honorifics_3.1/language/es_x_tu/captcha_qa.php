@@ -39,26 +39,26 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'               => 'Q&amp;A (Preguntas y Respuestas)',
 	'CONFIRM_QUESTION_EXPLAIN' => 'Esta pregunta es una forma de evitar inserciones automatizadas por spambots.',
-	'CONFIRM_QUESTION_WRONG'   => 'Ha proporcionado una respuesta incorrecta a la pregunta.',
+	'CONFIRM_QUESTION_WRONG'   => 'Has proporcionado una respuesta incorrecta a la pregunta.',
 
 	'QUESTION_ANSWERS'		   => 'Respuestas',
-	'ANSWERS_EXPLAIN'		   => 'Por favor, introduzca respuestas válidas para la pregunta, una por línea.',
+	'ANSWERS_EXPLAIN'		   => 'Por favor, introduce respuestas válidas para la pregunta, una por línea.',
 	'CONFIRM_QUESTION'		   => 'Pregunta',
 
 	'ANSWER'				   => 'Respuesta',
 	'EDIT_QUESTION'			   => 'Editar pregunta',
 	'QUESTIONS'				   => 'Preguntas',
-	'QUESTIONS_EXPLAIN'        => 'Por cada formulario de envío donde haya habilitado el plugin Q&amp;A, a los usuarios se les formulará una de las preguntas especificadas aquí. Para usar este plugin al menos una pregunta debe ser configurada en el idioma por defecto del foro. Estas preguntas deberían ser fáciles de responder para la mayoría de sus usuarios pero más allá de la habilidad de un robot capaz de realizar una búsqueda en Google™. Usar un amplio conjunto de preguntas y cambiarlas de forma regular dará el mejor resultado. Active la opción de Chequeo Estricto si su pregunta depende de tildes, mayúsculas o puntuación.',
+	'QUESTIONS_EXPLAIN'        => 'Por cada formulario de envío donde hayas habilitado el plugin Q&amp;A, a los usuarios se les formulará una de las preguntas especificadas aquí. Para usar este plugin al menos una pregunta debe ser configurada en el idioma por defecto del foro. Estas preguntas deberían ser fáciles de responder para la mayoría de sus usuarios pero más allá de la habilidad de un robot capaz de realizar una búsqueda en Google™. Usar un amplio conjunto de preguntas y cambiarlas de forma regular dará el mejor resultado. Activa la opción de Chequeo Estricto si tu pregunta depende de tildes, mayúsculas o puntuación.',
 	'QUESTION_DELETED'         => 'Pregunta eliminada',
 	'QUESTION_LANG'            => 'Idioma',
 	'QUESTION_LANG_EXPLAIN'    => 'El idioma en el que esta pregunta y sus respuestas están escritas.',
 	'QUESTION_STRICT'          => 'Chequeo Estricto',
-	'QUESTION_STRICT_EXPLAIN'  => 'Activar si quiere forzar la mezcla de mayúsculas y minúsculas, caracteres especiales de puntuación y el espacio en blanco.',
+	'QUESTION_STRICT_EXPLAIN'  => 'Activar si quieres forzar la mezcla de mayúsculas y minúsculas, caracteres especiales de puntuación y el espacio en blanco.',
 
 	'QUESTION_TEXT'            => 'Pregunta',
 	'QUESTION_TEXT_EXPLAIN'    => 'La pregunta a presentar al usuario.',
 
-	'QA_ERROR_MSG'			   => 'Por favor, rellene todos los campos e introduzca al menos una respuesta.',
-	'QA_LAST_QUESTION'		   => 'No puede eliminar todas las preguntas mientras el plugin esté activo.',
+	'QA_ERROR_MSG'			   => 'Por favor, rellena todos los campos e introduce al menos una respuesta.',
+	'QA_LAST_QUESTION'		   => 'No puedes eliminar todas las preguntas mientras el plugin esté activo.',
 
 ));
