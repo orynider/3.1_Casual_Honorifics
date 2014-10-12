@@ -35,13 +35,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Establezca esta opción si la opción de configuración cambia con demasiada frecuencia para ser almacenado en caché de manera eficiente.',
-	'CLI_CONFIG_CURRENT'				=> 'Valor de configuración actual, use 0 y 1 para especificar los valores boolean',
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Establece esta opción si la opción de configuración cambia con demasiada frecuencia para ser almacenado en caché de manera eficiente.',
+	'CLI_CONFIG_CURRENT'				=> 'Valor de configuración actual, usa 0 y 1 para especificar los valores boolean',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Configuración %s borrada correctamente.',
-	'CLI_CONFIG_NEW'					=> 'Nuevo valor de configuración, use 0 y 1 para especificar los valores boolean',
+	'CLI_CONFIG_NEW'					=> 'Nuevo valor de configuración, usa 0 y 1 para especificar los valores boolean',
 	'CLI_CONFIG_NOT_EXISTS'				=> 'Configuración %s no existe',
 	'CLI_CONFIG_OPTION_NAME'			=> 'El nombre de la opción de configuración',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Establezca esta opción si el valor debe imprimirse sin una nueva línea al final.',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Establece esta opción si el valor debe imprimirse sin una nueva línea al final.',
 	'CLI_CONFIG_INCREMENT_BY'			=> 'Cantidad a incrementar por',
 	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Configuración incrementada correctamente %s',
 	'CLI_CONFIG_SET_FAILURE'			=> 'No se pudo establecer la configuración %s',
