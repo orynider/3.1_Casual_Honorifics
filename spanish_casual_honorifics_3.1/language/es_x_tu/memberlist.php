@@ -54,6 +54,8 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Idioma',
 	'DEST_LANG_EXPLAIN'		=> 'Selecciona un idioma apropiado (si está disponible) para el destinatario de este mensaje.',
 
+	'EDIT_PROFILE'			=> 'Editar perfil',
+
 	'EMAIL_BODY_EXPLAIN'	=> 'Este mensaje será enviado como texto plano, no incluyas HTML o BBCode. La dirección del remitente será tu dirección de email.',
 	'EMAIL_DISABLED'		=> 'Disculpa, todas las funciones de email han sido deshabilitadas.',
 	'EMAIL_SENT'			=> 'El email ha sido enviado.',
