@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Puerto en el que la búsqueda Sphinx (searchd) atiende. Dejar en blanco para usar el puerto por defecto 9312 de Sphinx API',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La búsqueda Sphinx para phpBB Soporta solamente MySQL y PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Archivo de configuración de Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'El contenido generado en el archivo de configuración de Sphinx. Estos datos necesitan ser copiados en el sphinx.conf para ser usado por la búsqueda de Sphinx.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'El contenido generado en el archivo de configuración de Sphinx. Estos datos necesitan ser copiados en el sphinx.conf para ser usado por la búsqueda de Sphinx. Reemplaza el [dbuser] y [dbpassword] con tus credenciales de base de datos.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Las rutas de los directorios data y config no han sido definidos. Por favor, debe definir esto para generar el archivo de configuración.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configuración general de búsqueda',
