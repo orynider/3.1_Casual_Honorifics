@@ -47,6 +47,10 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo salió mal en la solicitud y se produjo una excepción. Los cambios hechos antes de que ocurriera el error se invirtieron en la medida de nuestras capacidades, pero deberás comprobar los errores del foro.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración "%1$s" no se ha realizado, falta la migración "%2$s".',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_APPLY_DEPENDENCIES'      => 'Aplicar dependencias de %s.',
+	'MIGRATION_DATA_RUNNING'         => 'Instalando datos: %s.',
+	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
+	'MIGRATION_SCHEMA_RUNNING'         => 'Instalando esquema: %s.',
 
 	'MODULE_ERROR'						=> 'Se ha producido un error al crear un módulo: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un archivo de información del módulo necesario, no ha sido encontrado: %2$s',
