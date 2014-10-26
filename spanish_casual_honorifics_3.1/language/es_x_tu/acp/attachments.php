@@ -39,13 +39,13 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aquí puede configurar los principales parámetros para archivos adjuntos y las categorías especiales asociadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aquí puede añadir, borrar, modificar o deshabilitar los grupos de extensiones. Opciones adicionales incluyen su asignación a una categría especial, cambiar el mecanismo de descarga y definir un icono que se mostrará delante del adjunto que pertenezca al grupo.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aquí puede editar sus extensiones permitidas. Para activar sus extensiones, por favor diríjase al Panel de Control de Administración (PCA) de extensiones de grupo. Le recomendamos encarecidamente no permitir extensiones de scripts (como <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, y similares).',
-	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Aquí puede ver qué archivos están en la carpeta de subidas sin ser asignados a ningún mensaje. Esto ocurre generalmente si el usuario adjunta un archivo pero no envía el mensaje. Puede borrar estos archivos o asignarlos a un mensaje existente. Esto requiere de un ID de mensaje válido por lo que ha de determinarlo por su cuenta. Esta utilidad es principalmente para aquellas personas que quieren subir archivos (por lo general grandes) con otro programa (p.ej. con un cliente ftp) y asignarlos a un mensaje ya existente.',
+	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aquí puedes configurar los principales parámetros para archivos adjuntos y las categorías especiales asociadas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aquí puedes añadir, borrar, modificar o deshabilitar los grupos de extensiones. Opciones adicionales incluyen su asignación a una categría especial, cambiar el mecanismo de descarga y definir un icono que se mostrará delante del adjunto que pertenezca al grupo.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aquí puedes editar sus extensiones permitidas. Para activar sus extensiones, por favor diríjase al Panel de Control de Administración (PCA) de extensiones de grupo. Le recomendamos encarecidamente no permitir extensiones de scripts (como <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, y similares).',
+	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Aquí puedes ver qué archivos están en la carpeta de subidas sin ser asignados a ningún mensaje. Esto ocurre generalmente si el usuario adjunta un archivo pero no envía el mensaje. Puedes borrar estos archivos o asignarlos a un mensaje existente. Esto requiere de un ID de mensaje válido por lo que ha de determinarlo por su cuenta. Esta utilidad es principalmente para aquellas personas que quieren subir archivos (por lo general grandes) con otro programa (p.ej. con un cliente ftp) y asignarlos a un mensaje ya existente.',
 	'ADD_EXTENSION'						=> 'Añadir extensión',
 	'ADD_EXTENSION_GROUP'				=> 'Añadir grupo de extensiones',
-	'ADMIN_UPLOAD_ERROR'				=> 'Se podrujo algún error mientras trataba de adjuntar un archivo: %s',
+	'ADMIN_UPLOAD_ERROR'				=> 'Se podrujo algún error mientras tratabas de adjuntar un archivo: %s',
 	'ALLOWED_FORUMS'					=> 'Foros permitidos',
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Habilitado enviar las extensiones asignadas al foro (o foros) seleccionado(s)',
 	'ALLOWED_IN_PM_POST'				=> 'Permitido',
@@ -83,15 +83,15 @@ $lang = array_merge($lang, array(
 
 	'DEFINE_ALLOWED_IPS'				=> 'Definir IPs/hostnames permitidos',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/hostnames no permitidos',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para especificar varias IPs o hostnames diferentes, introduzca cada una en una nueva línea. Para especificar un rango de direcciones IP separe el inicio y el final con un guión (-), para especificar un comodín use *',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Puede eliminar (o des-excluir) múltiples direcciones IP al mismo tiempo usando la combinación apropiada de ratón y teclado para su navegador (p.ej. Ctrl+Clic). Las IPs excluidas están en negrita.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para especificar varias IPs o hostnames diferentes, introduce cada una en una nueva línea. Para especificar un rango de direcciones IP separa el inicio y el final con un guión (-), para especificar un comodín use *',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Puedes eliminar (o des-excluir) múltiples direcciones IP al mismo tiempo usando la combinación apropiada de ratón y teclado para tu navegador (por ejemplo, Ctrl+Clic). Las IPs excluidas están en negrita.',
 	'DISPLAY_INLINED'					=> 'Mostrar imagenes',
-	'DISPLAY_INLINED_EXPLAIN'			=> 'Si elige "Sin imagen", los adjuntos se mostrarán como un enlace.',
+	'DISPLAY_INLINED_EXPLAIN'			=> 'Si eliges "Sin imagen", los adjuntos se mostrarán como un enlace.',
 	'DISPLAY_ORDER'						=> 'Mostrar adjuntos ordenados',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Muestra los adjuntos ordenados por fecha.',
 
 	'EDIT_EXTENSION_GROUP'				=> 'Editar grupo de extensiones',
-	'EXCLUDE_ENTERED_IP'				=> 'Habilítelo para excluir la IP/hostname ingresada.',
+	'EXCLUDE_ENTERED_IP'				=> 'Habilítalo para excluir la IP/hostname ingresada.',
 	'EXCLUDE_FROM_ALLOWED_IP'			=> 'Excluir IP de las IPs/hostnames permitidas',
 	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP de las IPs/hostnames no permitidas',
 	'EXTENSIONS_UPDATED'				=> 'Extensiones actualizadas correctamente',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'	  			=> 'Real Media',
 	'EXT_GROUP_WINDOWS_MEDIA'      		=> 'Windows Media',
 
-	'FILES_GONE'			=> 'Algunos de los archivos adjuntos que usted seleccionó para su eliminación ya no existen. Pueden haber sido eliminados. Los archivos adjuntos que no existen se eliminaron.',
+	'FILES_GONE'			=> 'Algunos de los archivos adjuntos que has seleccionado para su eliminación ya no existen. Pueden haber sido eliminados. Los archivos adjuntos que no existen se eliminaron.',
 	'FILES_STATS_WRONG'		=> 'Las estadísticas de sus archivos son probablemente inexactos y deben ser resincronizados. Valores actuales: número de adjuntos = %1$d, tamaño total de adjuntos = %2$s.<br />Clic %3$saquí%4$s para resincronizar esto.',
 
 	'GO_TO_EXTENSIONS'					=> 'Ir a la sección de Administración de extensiones',
@@ -143,8 +143,8 @@ $lang = array_merge($lang, array(
 	'NO_FILE_CAT'						=> 'Ninguno',
 	'NO_IMAGE'							=> 'Sin imagen',
 	'NO_THUMBNAIL_SUPPORT'				=> 'El soporte para vista en miniatura ha sido deshabilitado porque no se encontró la librería GD ni el programa imagemagick.',
-	'NO_UPLOAD_DIR'						=> 'La carpeta de subidas que especificó no existe.',
-	'NO_WRITE_UPLOAD'					=> 'La carpeta de subidas que especificó no se puede escribir. Por favor, cambie los permisos en el servidor.',
+	'NO_UPLOAD_DIR'						=> 'La carpeta de subidas que has especificado no existe.',
+	'NO_WRITE_UPLOAD'					=> 'La carpeta de subidas que has especificado no se puede escribir. Por favor, cambia los permisos en el servidor.',
 
 	'ONLY_ALLOWED_IN_PM'				=> 'Solo permitido en Mensajes Privados',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
@@ -152,13 +152,13 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Eliminar o des-excluir IPs/hostnames <em>permitidas</em>',
 	'REMOVE_DISALLOWED_IPS'			=> 'Eliminar o des-excluir IPs/hostnames <em>no permitidas</em>',
-	'RESYNC_FILES_STATS_CONFIRM'	=> '¿Está seguro que desea resincronizar las estadísticas de archivos?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> '¿Estás seguro de querer resincronizar las estadísticas de archivos?',
 
 	'SEARCH_IMAGICK'					=> 'Buscar imagemagick',
 	'SECURE_ALLOW_DENY'					=> 'Lista de Permitidos/No permitidos',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Cuando está habilitada la Descarga Segura cambia el comportamiento por defecto de la Lista de Permitidos/No permitidos de <strong>lista blanca</strong> (Permitido) a <strong>lista negra</strong> (No permitido)',
 	'SECURE_DOWNLOADS'					=> 'Habilitar Descarga Segura',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Con esta opción habilitada, las descargas se limitan a las IP’s/hostnames que defina.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Con esta opción habilitada, las descargas se limitan a las IP’s/hostnames que hayas definido.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'Descarga Segura no está habilitada. Los configuración de debajo se aplicarán después de habilitarla.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'La lista de IP ha sido actualizada correctamente.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir referrer vacío',
@@ -172,9 +172,9 @@ $lang = array_merge($lang, array(
 
 	'UPLOADING_FILES'					=> 'Subiendo archivos',
 	'UPLOADING_FILE_TO'					=> 'Subiendo archivo "%1$s" al mensaje número %2$d…',
-	'UPLOAD_DENIED_FORUM'				=> 'No tiene permisos para subir archivos al foro "%s"',
+	'UPLOAD_DENIED_FORUM'				=> 'No tienes permisos para subir archivos al foro "%s"',
 	'UPLOAD_DIR'						=> 'Carpeta de subidas',
 	'UPLOAD_DIR_EXPLAIN'				=> 'Ruta donde se guardan los adjuntos.',
 	'UPLOAD_ICON'						=> 'Icono de subida',
-	'UPLOAD_NOT_DIR'					=> 'La ubicación que especificó no parece ser una carpeta.',
+	'UPLOAD_NOT_DIR'					=> 'La ubicación que has especificado no parece ser una carpeta.',
 ));
