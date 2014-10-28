@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'El Administrador de Extensiones es una herramienta en su foro phpBB que permite gestionar todas sus extensiones, su estado, y ver la información sobre ellas.',
 	'EXTENSION_INVALID_LIST'	=> 'La extensión “%s” no es validá.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'La extensión seleccionada no está disponible en este foro, por favor verifique las versiones de phpBB y PHP (ver la página de detalles).',
+	'EXTENSION_DIR_INVALID'		=> 'La extensión seleccionada tiene una estructura de directorio no válido y no se puede activar.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'La siguiente extensión no puede ser habilitada, por favor, verifique los requerimientos de la extensión.',
 
 	'DETAILS'				=> 'Detalles',
