@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo "Paquete de Actualización phpBB" correspondiente.<br /><br /></li>
 			<li>Desempaquete el archivo.<br /><br /></li>
-			<li>Suba la carpeta de instalación descomprimida completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
+			<li>Suba las carpetas de instalación descomprimida "install" y "vendor" completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
 		</ul>
 
 		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br /><br />
