@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAT_CUSTOMISE'			=> 'Personalizar',
 	'ACP_CAT_DATABASE'			=> 'Base de datos',
-	'ACP_CAT_DOT_MODS'			=> 'Mods',
+	'ACP_CAT_DOT_MODS'			=> 'Extensiones',
 	'ACP_CAT_FORUMS'			=> 'Foros',
 	'ACP_CAT_GENERAL'			=> 'General',
 	'ACP_CAT_MAINTENANCE'		=> 'Mantenimiento',
