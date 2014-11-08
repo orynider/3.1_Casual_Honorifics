@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Aquí puede administrar los estilos disponibles en su sitio. Puede alterar estilos existentes, borrar, desactivar, reactivar, o instalar nuevos. También puede ver como se vería un estilo usando la función Vista Previa. También se muestra el total de usuarios por cada estilo, tenga en cuenta que sustituir los estilos de usuario no se reflejará aquí.',
+	'ACP_STYLES_EXPLAIN'	=> 'Aquí puedes administrar los estilos disponibles en tu sitio. Puedes alterar estilos existentes, borrar, desactivar, reactivar, o instalar nuevos. También puedes ver como se vería un estilo usando la función Vista Previa. También se muestra el total de usuarios por cada estilo, ten en cuenta que sustituir los estilos de usuario no se reflejará aquí.',
 
 	'CANNOT_BE_INSTALLED'			=> 'No se puede instalar',
 
-	'CONFIRM_UNINSTALL_STYLES'		=> '¿Está seguro de que quiere desinstalar los estilos seleccionados?',
+	'CONFIRM_UNINSTALL_STYLES'		=> '¿Estás seguro de querer desinstalar los estilos seleccionados?',
 	'COPYRIGHT'						=> 'Copyright',
 
-	'DEACTIVATE_DEFAULT'		=> 'No puede desactivar el estilo por defecto.',
+	'DEACTIVATE_DEFAULT'		=> 'No puedes desactivar el estilo por defecto.',
 	'DELETE_FROM_FS'			=> 'Borrar del sistema',
 	'DELETE_STYLE_FILES_FAILED'	=> 'Error borrando archivos del estilo "%s".',
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'Archivos del estilo "%s" han sido borrados.',
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Hereda de',
 	'INSTALL_STYLE'				=> 'Instalar estilo',
 	'INSTALL_STYLES'			=> 'Instalar estilos',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Aquí puede instalar nuevos estilos.<br />Si no encuentra un estilo específico en la lista, verifique que el estilo ya esté instalado. Si no está instalado, compruebe si lo ha subido correctamente.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Aquí puedes instalar nuevos estilos.<br />Si no encuentras un estilo específico en la lista, verifica que el estilo ya esté instalado. Si no está instalado, comprueba si lo has subido correctamente.',
 	'INVALID_STYLE_ID'			=> 'ID del estilo no válido.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'No coinciden estilos para esa consulta.',
@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
 	'STYLE_ACTIVE'				=> 'Activo',
 	'STYLE_DEACTIVATE'			=> 'Desactivar',
 	'STYLE_DEFAULT'				=> 'Hacer estilo por defecto',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Debe activar el estilo antes de hacerlo el estilo por defecto.',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Debes activar el estilo antes de hacerlo el estilo por defecto.',
 	'STYLE_ERR_INVALID_PARENT'	=> 'Estilo padre inválido.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Ya existe un estilo con ese nombre.',
-	'STYLE_ERR_STYLE_NAME'		=> 'Tiene que proporcionar un nombre para este estilo.',
+	'STYLE_ERR_STYLE_NAME'		=> 'Tienes que proporcionar un nombre para este estilo.',
 	'STYLE_INSTALLED'			=> 'Estilo "%s" ha sido instalado.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Volver a la lista de estilos instalados',
  	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instalas más estilos',
@@ -82,5 +82,5 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALLED'			=> 'Estilo "%s" desinstalado correctamente.',
 	'STYLE_USED_BY'				=> 'Usado por (incluyendo robots)',
 
-	'UNINSTALL_DEFAULT'		=> 'No puede desinstalar el estilo por defecto.',
+	'UNINSTALL_DEFAULT'		=> 'No puedes desinstalar el estilo por defecto.',
 ));
