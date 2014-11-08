@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aquí puede determinar las operaciones básicas de su Sitio, desde el nombre pasando por el registro de usuarios hasta los mensajes privados.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aquí puedes determinar las operaciones básicas de tu sitio, desde el nombre pasando por el registro de usuarios hasta los mensajes privados.',
 	'BOARD_INDEX_TEXT'				=> 'Texto del índice del foro',
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Este texto será mostrado en el índice general del foro. Si no se especifica, se usará por defecto “Índice general”.',
 	'BOARD_STYLE'					=> 'Estilo del foro',
@@ -48,20 +48,20 @@ $lang = array_merge($lang, array(
 	'DEFAULT_LANGUAGE'				=> 'Idioma por defecto',
 	'DEFAULT_STYLE'					=> 'Estilo por defecto',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'El estilo por defecto para nuevos usuarios.',
-	'DISABLE_BOARD'					=> 'Deshabilitar Sitio',
-	'DISABLE_BOARD_EXPLAIN'			=> 'Esto hará al Sitio inaccesible a los usuarios que no sean ni  administradores ni moderadores. Si quiere, también puede introducir un breve mensaje (255 caracteres) para mostrar.',
+	'DISABLE_BOARD'					=> 'Deshabilitar sitio',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Esto hará al sitio inaccesible a los usuarios que no sean ni Administradores ni Moderadores. Si quieres, también puedes introducir un breve mensaje (255 caracteres) para mostrar.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Mostrar asunto del último mensaje añadido en la lista del foros',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'El asunto del último mensaje añadido será mostrado en la lista de foros con un enlace al mensaje. No se muestran los temas de los foros con contraseña y foros en los que el usuario no tiene permisos de lectura.',
 	'GUEST_STYLE'					=> 'Estilo de invitado',
 	'GUEST_STYLE_EXPLAIN'			=> 'El estilo del foro para invitados.',
 	'OVERRIDE_STYLE'				=> 'Sustituir estilo del usuario',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Reemplaza el estilo del usuario (e invitados) con el estilo definido en "Estilo por defecto".',
-	'SITE_DESC'						=> 'Descripción del Sitio',
+	'SITE_DESC'						=> 'Descripción del sitio',
 	'SITE_HOME_TEXT'				=> 'Texto del sitio web principal',
 	'SITE_HOME_TEXT_EXPLAIN'		=> 'Este texto se mostrará como un enlace a su página web en el foro. Si no se especifica, se usará por defecto “Inicio”.',
 	'SITE_HOME_URL'					=> 'URL del sitio web principal',
 	'SITE_HOME_URL_EXPLAIN'			=> 'Si se especifica, un enlace a esta URL se antepondrá a la navegación de su foro y el logo del foro accederá a está URL en lugar del índice del foro. Se requiere una dirección URL absoluta, por ejemplo, <samp>http://www.phpbb.com</samp>.',
-	'SITE_NAME'						=> 'Nombre del Sitio',
+	'SITE_NAME'						=> 'Nombre del sitio',
 	'SYSTEM_TIMEZONE'				=> 'Zona horaria para invitados',
 	'SYSTEM_TIMEZONE_EXPLAIN'   	=> 'Zona horaria a usar para mostrar horarios a usuarios no identificados (invitados, bots). Los usuarios identificados eligen su zona horaria durante el proceso de registro y pueden cambiarla en su Panel de Usuario.',
 	'WARNINGS_EXPIRE'				=> 'Duración de la advertencia',
@@ -70,15 +70,15 @@ $lang = array_merge($lang, array(
 
 // Board Features
 $lang = array_merge($lang, array(
-	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Aquí puede habilitar/deshabilitar varias características del Sitio',
+	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Aquí puede habilitar/deshabilitar varias características del sitio',
 
 	'ALLOW_ATTACHMENTS'		=> 'Permitir adjuntos',
 	'ALLOW_BIRTHDAYS'		=> 'Permitir cumpleaños',
-	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Permitir la introducción de cumpleaños y que la edad sea visualizada en los perfiles. Por favor tenga en cuenta que la lista de cumpleaños en el Índice del Foro está controlada por otro parámetro.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Permitir la introducción de cumpleaños y que la edad sea visualizada en los perfiles. Por favor, ten en cuenta que la lista de cumpleaños en el Índice del Foro está controlada por otro parámetro.',
 	'ALLOW_BOOKMARKS'		=> 'Permitir añadir temas como Favoritos',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'El usuario será capaz de guardar Favoritos personales',
 	'ALLOW_BBCODE'			=> 'Permitir BBCode',
-	'ALLOW_FORUM_NOTIFY'		=> 'Permitir la suscripción a/seguimiento de Foros',
+	'ALLOW_FORUM_NOTIFY'		=> 'Permitir la suscripción/seguimiento de Foros',
 	'ALLOW_NAME_CHANGE'		=> 'Permitir cambios de nombre de usuario',
 	'ALLOW_NO_CENSORS'		=> 'Permitir deshabilitar lista de palabras censuradas',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Los usuarios pueden elegir deshabilitar la lista de palabras censuradas de mensajes y mensajes privados.',
