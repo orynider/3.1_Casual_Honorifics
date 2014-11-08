@@ -2,16 +2,16 @@ Subject: Bienvenido a "{SITENAME}"
 
 {WELCOME_MSG}
 
-Por favor guarde este email para futuras referencias. La información de su cuenta es la siguiente:
+Por favor, guarda este email para futuras referencias. La información de tu cuenta es la siguiente:
 
 ----------------------------
 Nombre de usuario: {USERNAME}
 ----------------------------
 
-Su contraseña ha sido guardada de forma segura en nuestra base de datos y no puede ser recuperada.
-En el caso de que la olvide tendrá la posibilidad de regenerarla usando la misma dirección de correo electrónico asociada a su cuenta.
+Tu contraseña ha sido guardada de forma segura en nuestra base de datos y no puede ser recuperada.
+En el caso de que la olvides tendrás la posibilidad de regenerarla usando la misma dirección de correo electrónico asociada a tu cuenta.
 
-Por favor visite el siguiente enlace para activar su cuenta:
+Por favor, visita el siguiente enlace para activar tu cuenta:
 
 {U_ACTIVATE}
 

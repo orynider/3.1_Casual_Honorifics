@@ -1,18 +1,18 @@
-Subject: Reactivar su cuenta en "{SITENAME}"
+Subject: Reactivar tu cuenta en "{SITENAME}"
 
-La Administración ha requerido que su cuenta sea reactivada. Su cuenta está actualmente inactiva.
-Por favor siga estos pasos para reactivar su cuenta.
+La Administración ha requerido que tu cuenta sea reactivada. Tu cuenta está actualmente inactiva.
+Por favor, sigue estos pasos para reactivar tu cuenta.
 
-Por favor guarde este email para futuras referencias. La información de su cuenta es la siguiente:
+Por favor, guarda este email para futuras referencias. La información de tu cuenta es la siguiente:
 
 ----------------------------
 Nombre de usuario: {USERNAME}
 ----------------------------
 
-Su contraseña ha sido guardada de forma segura en nuestra base de datos y no puede ser recuperada.
-En el caso de que la olvide tendrá la posibilidad de regenerarla usando la misma dirección de correo electrónico asociada a su cuenta.
+Tu contraseña ha sido guardada de forma segura en nuestra base de datos y no puede ser recuperada.
+En el caso de que la olvides tendrás la posibilidad de regenerarla usando la misma dirección de correo electrónico asociada a tu cuenta.
 
-Por favor visite el siguiente enlace para reactivar su cuenta:
+Por favor, visita el siguiente enlace para reactivar tu cuenta:
 
 {U_ACTIVATE}
 
