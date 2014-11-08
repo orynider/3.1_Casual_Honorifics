@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'					=> 'Borrar mensajes',
 	'DELETE_USER'					=> 'Borrar usuario',
-	'DELETE_USER_EXPLAIN'			=> 'Por favor, tenga en cuenta que la eliminación de un usuario es final, no puede ser recuperado. Los mensajes privados enviados por el usuario sin leer, serán eliminados y no estarán disponibles para sus destinatarios.',
+	'DELETE_USER_EXPLAIN'			=> 'Por favor, ten en cuenta que la eliminación de un usuario es final, no puede ser recuperado. Los mensajes privados enviados por el usuario sin leer, serán eliminados y no estarán disponibles para sus destinatarios.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Reactivación forzada correctamente.',
 	'FOUNDER'						=> 'Fundador',
@@ -76,11 +76,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'					=> 'Último activo',
 
-	'MOVE_POSTS_EXPLAIN'			=> 'Por favor seleccione el Foro al cual quiere mover todos los mensajes que haya hecho este usuario.',
+	'MOVE_POSTS_EXPLAIN'			=> 'Por favor, selecciona el Foro al cual quieres mover todos los mensajes que haya hecho este usuario.',
 
 	'NO_SPECIAL_RANK'				=> 'No hay designado rango especial',
 	'NO_WARNINGS'					=> 'Sin avisos.',
-	'NOT_MANAGE_FOUNDER'			=> 'Intenta de modificar un usuario que es Fundador. Solo los Fundadores pueden modificar otros fundadores.',
+	'NOT_MANAGE_FOUNDER'			=> 'Intentas modificar un usuario que es Fundador. Solo los Fundadores pueden modificar a otros fundadores.',
 
 	'QUICK_TOOLS'				=> 'Herramientas rápidas',
 
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Vaciar bandeja de salida de MP',
 	'USER_ADMIN_DEL_POSTS'			=> 'Borrar todos los mensajes',
 	'USER_ADMIN_DEL_SIG'			=> 'Borrar firma',
-	'USER_ADMIN_EXPLAIN'			=> 'Aquí puede cambiar la información de los usuarios y ciertas opciones específicas. Para modificar los permisos de usuario usa el sistema de permisos de usuario y grupo.',
+	'USER_ADMIN_EXPLAIN'			=> 'Aquí puedes cambiar la información de los usuarios y ciertas opciones específicas. Para modificar los permisos de usuario usa el sistema de permisos de usuario y grupo.',
 	'USER_ADMIN_FORCE'				=> 'Forzar reactivación',
 	'USER_ADMIN_LEAVE_NR'			=> 'Quitar de Nuevos Registrados',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Mover todos los mensajes',
@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'USER_ATTACHMENTS_REMOVED'		=> 'Todos los adjuntos del usuario borrados correctamente.',
 	'USER_AVATAR_NOT_ALLOWED'		=> 'El avatar no puede ser mostrado porque los avatares han sido deshabilitados.',
 	'USER_AVATAR_UPDATED'			=> 'Avatar del usuario actualizado correctamente.',
-	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'El avatar actual no puede ser mostrado porque su tipo de fichero ha sido deshabilitado.',	
+	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'El avatar actual no puede ser mostrado porque tu tipo de fichero ha sido deshabilitado.',	
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Campos de perfil personalizado',
 	'USER_DELETED'					=> 'Usuario borrado correctamente.',
 	'USER_GROUP_ADD'				=> 'Añadir usuario a grupo',
