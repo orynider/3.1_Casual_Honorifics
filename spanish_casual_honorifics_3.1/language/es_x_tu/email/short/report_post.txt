@@ -2,12 +2,12 @@ Subject: Mensaje reportado - "{TOPIC_TITLE}"
 
 Hola {USERNAME},
 
-Está recibiendo esta notificación porque un mensaje "{POST_SUBJECT}" en "{SITENAME}" ha sido reportado.
+Estás recibiendo esta notificación porque un mensaje "{POST_SUBJECT}" en "{SITENAME}" ha sido reportado.
 
-Si quiere ver el informe, visite el siguiente enlace:
+Si quieres ver el informe, visita el siguiente enlace:
 {U_VIEW_REPORT}
 
-Si quiere ver el mensaje, visite el siguiente enlace:
+Si quieres ver el mensaje, visita el siguiente enlace:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

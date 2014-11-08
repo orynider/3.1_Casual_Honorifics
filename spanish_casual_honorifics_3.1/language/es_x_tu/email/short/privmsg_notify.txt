@@ -2,14 +2,14 @@ Subject: Tiene un nuevo mensaje privado
 
 Hola {USERNAME},
 
-Ha recibido un nuevo mensaje privado de "{AUTHOR_NAME}" en su cuenta de "{SITENAME}" con el siguiente tema:
+Has recibido un nuevo mensaje privado de "{AUTHOR_NAME}" en tu cuenta de "{SITENAME}" con el siguiente tema:
 
 {SUBJECT}
 
-Puede ver su nuevo mensaje visitando el siguiente enlace:
+Puedes ver tu nuevo mensaje visitando el siguiente enlace:
 
 {U_VIEW_MESSAGE}
 
-Ha solicitado que se le notifique, recuerde que siempre puede elegir no ser notificado de nuevos mensajes cambiando esta opción en su perfil.
+Has solicitado que se te notifique, recuerda que siempre puedes elegir no ser notificado de nuevos mensajes cambiando esta opción en tu perfil.
 
 {EMAIL_SIG}
