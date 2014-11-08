@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Aquí puede hacer un copia de seguridad de toda la información relacionada con phpBB. Puede guardar el archivo resultante en su carpeta <samp>store/</samp> o descargarlo a su PC. Dependiendo de la configuración del servidor puede comprimir el archivo en varios formatos.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Esto efectuará una recuperación completa de todas las tablas de phpBB guardadas en el archivo. Si el servidor lo permite, puede usar un archivo comprimido con gzip o bzip2 y será descomprimido automáticamente. <strong>ADVERTENCIA</strong> Esto sobreescribirá cualquier dato existente. La recuperación puede llevar algún tiempo, por favor no lo mueva de esta página hasta que se complete.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Aquí puedes hacer un copia de seguridad de toda la información relacionada con phpBB. Puedes guardar el archivo resultante en tu carpeta <samp>store/</samp> o descargarlo a tu PC. Dependiendo de la configuración del servidor puedes comprimir el archivo en varios formatos.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Esto efectuará una recuperación completa de todas las tablas de phpBB guardadas en el archivo. Si el servidor lo permite, puedes usar un archivo comprimido con gzip o bzip2 y será descomprimido automáticamente. <strong>ADVERTENCIA</strong> Esto sobreescribirá cualquier dato existente. La recuperación puede llevar algún tiempo, por favor no lo muevas de esta página hasta que se complete.',
 
 	'BACKUP_DELETE'			=> 'El archivo de copia de seguridad ha sido borrado correctamente.',
 	'BACKUP_INVALID'		=> 'El archivo seleccionado para hacer la copia de seguridad no es válido.',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'				=> 'Utilidades de base de datos',
 	'DATA_ONLY'				=> 'Solo los datos',
 	'DELETE_BACKUP'			=> 'Borrar copia de seguridad',
-	'DELETE_SELECTED_BACKUP'	=> '¿Está seguro de que quiere borrar la copia de seguridad seleccionada?',
+	'DELETE_SELECTED_BACKUP'	=> '¿Estás seguro de querer borrar la copia de seguridad seleccionada?',
 	'DESELECT_ALL'			=> 'Desmarcar todo',
 	'DOWNLOAD_BACKUP'		=> 'Descargar copia de seguridad',
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'El archivo de copia de seguridad puede estar corrupto.',
 	'RESTORE_OPTIONS'		=> 'Restaurar opciones',
-	'RESTORE_SELECTED_BACKUP'	=> '¿Está usted seguro de querer restaurar el backup seleccionado?',
+	'RESTORE_SELECTED_BACKUP'	=> '¿Estás seguro de querer restaurar el backup seleccionado?',
 	'RESTORE_SUCCESS'		=> 'La base de datos ha sido restaurada correctamente.<br /><br />El sitio debería volver al estado en que se encontraba cuando se hizo el resguardo.',
 
 	'SELECT_ALL'			=> 'Seleccionar todo',

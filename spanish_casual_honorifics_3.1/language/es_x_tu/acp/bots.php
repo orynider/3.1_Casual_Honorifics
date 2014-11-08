@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Administrar robots',
-	'BOTS_EXPLAIN'		=> 'Robots o Spiders son agentes automatizados, en su mayoría utilizados por los buscadores, para actualizar sus bases de datos. Ya que raramente hacen un uso apropiado de las sesiones pueden alterar los contadores de visitas, incrementar la carga y a veces indexar sitios incorrectamente. Aquí puede definir un tipo especial de usuario para sobrellevar esos problemas.',
+	'BOTS_EXPLAIN'		=> 'Robots o Spiders son agentes automatizados, en su mayoría utilizados por los buscadores, para actualizar sus bases de datos. Ya que raramente hacen un uso apropiado de las sesiones pueden alterar los contadores de visitas, incrementar la carga y a veces indexar sitios incorrectamente. Aquí puedes definir un tipo especial de usuario para sobrellevar esos problemas.',
 	'BOT_ACTIVATE'		=> 'Activar',
 	'BOT_ACTIVE'		=> 'Robot activo',
 	'BOT_ADD'			=> 'Añadir robot',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Desactivar',
 	'BOT_DELETED'		=> 'Robot borrado correctamente.',
 	'BOT_EDIT'			=> 'Editar robots',
-	'BOT_EDIT_EXPLAIN'	=> 'Aquí puede añadir o editar un robot existente. Puede definir un nombre y/o una o más direcciones de IP (o rango de direcciones) que coincidan. Hágalo con cuidado. También puede especificar un estilo y un idioma con los cuales el robot "verá" el sitio. Puede ayudarle a reducir ancho de banda establecer un estilo simple para robots. Recuerde establecer los permisos apropiados para el grupo Robots.',
+	'BOT_EDIT_EXPLAIN'	=> 'Aquí puedes añadir o editar un robot existente. Puedes definir un nombre y/o una o más direcciones de IP (o rango de direcciones) que coincidan. Debes hacerlo con cuidado. También puedes especificar un estilo y un idioma con los cuales el robot "verá" el sitio. Puede ayudarte a reducir ancho de banda establecer un estilo simple para robots. Recuerda establecer los permisos apropiados para el grupo Robots.',
 	'BOT_LANG'			=> 'Idioma para el robot',
 	'BOT_LANG_EXPLAIN'	=> 'Idioma presentado al robot mientras navega.',
 	'BOT_LAST_VISIT'	=> 'Última visita',
@@ -63,9 +63,9 @@ $lang = array_merge($lang, array(
 	'BOT_STYLE_EXPLAIN'	=> 'El estilo en que el robot "verá" el sitio.',
 	'BOT_UPDATED'		=> 'Robot actualizado correctamente.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'  => 'La palabra coincidente que proporcionó es similar a una que ya está usando. Por favor, cámbiela.',
-	'ERR_BOT_NO_IP'				=> 'La dirección de IP que proporcionó es inválida o no se puede resolver el nombre del host.',
-	'ERR_BOT_NO_MATCHES'		=> 'Tiene que proporcionar al menos una palabra o IP que coincidan con este robot.',
+	'ERR_BOT_AGENT_MATCHES_UA'  => 'La palabra coincidente que has proporcionado es similar a una que ya está usando. Por favor, cámbiala.',
+	'ERR_BOT_NO_IP'				=> 'La dirección de IP que has proporcionado es inválida o no se puede resolver el nombre del host.',
+	'ERR_BOT_NO_MATCHES'		=> 'Tienes que proporcionar al menos una palabra o IP que coincidan con este robot.',
 
 	'NO_BOT'		=> 'No se encontró ningún robot con el ID especificado.',
 	'NO_BOT_GROUP'	=> 'No se puede encontrar el grupo Robots.',

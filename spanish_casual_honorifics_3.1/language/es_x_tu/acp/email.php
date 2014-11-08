@@ -39,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Desde aquí puede enviar un email a todos los usuarios, o a los usuarios de un grupo específico. Para esto se enviará un email a la dirección administrativa proporcionada, con copia oculta a todos los receptores. Si el grupo de personas es muy grande, por favor sea paciente después de pulsar en "Enviar" y no detenga el proceso por la mitad. Es normal que enviar un email masivo lleve algún tiempo, será notificado cuando se complete el proceso',
+	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Desde aquí puedes enviar un email a todos los usuarios, o a los usuarios de un grupo específico. Para esto se enviará un email a la dirección administrativa proporcionada, con copia oculta a todos los receptores. Si el grupo de personas es muy grande, por favor se paciente después de pulsar en "Enviar" y no detengas el proceso por la mitad. Es normal que enviar un email masivo lleve algún tiempo, serás notificado cuando se complete el proceso',
 	'ALL_USERS'					=> 'Todos los usuarios',
 
 	'COMPOSE'				=> 'Escribir',
 
-	'EMAIL_SEND_ERROR'		=> 'Hubo uno o más errores mientras enviaba el email. Por favor verifique el %sLog de Errores%s para más detalles.',
+	'EMAIL_SEND_ERROR'		=> 'Hubo uno o más errores mientras enviaba el email. Por favor, verifica el %sLog de Errores%s para más detalles.',
 	'EMAIL_SENT'			=> 'El mensaje ha sido enviado.',
 	'EMAIL_SENT_QUEUE'		=> 'El mensaje ha sido aceptado para su envio.',
 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'SEND_IMMEDIATELY'		=> 'Enviar de inmediato',
 	'SEND_TO_GROUP'			=> 'Enviar a grupo',
 	'SEND_TO_USERS'			=> 'Enviar a usuarios',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Introducir nombres aquí invalida cualquier grupo seleccionado arriba. Introduzca cada nombre de usuario en una nueva línea.',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Introducir nombres aquí invalida cualquier grupo seleccionado arriba. Introduce cada nombre de usuario en una nueva línea.',
 	'MAIL_BANNED'			=> 'Email a usuarios excluidos',
 	'MAIL_BANNED_EXPLAIN'	=> 'Cuando se envía un correo electrónico masivo a un grupo se puede elegir si los usuarios excluidos recibirán el email.',
 
@@ -62,8 +62,8 @@ $lang = array_merge($lang, array(
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
 	'MAIL_PRIORITY'			=> 'Prioridad',
 	'MASS_MESSAGE'			=> 'Su mensaje',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Por favor tenga en cuenta que solo puede isertarse texto plano. Se eliminará cualquier código antes de enviar.',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Por favor, ten en cuenta que solo puede insertarse texto plano. Se eliminará cualquier código antes de enviar.',
 
-	'NO_EMAIL_MESSAGE'		=> 'Tiene que introducir un mensaje.',
-	'NO_EMAIL_SUBJECT'		=> 'Tiene que especificar un tema para su mensaje.',
+	'NO_EMAIL_MESSAGE'		=> 'Tienes que introducir un mensaje.',
+	'NO_EMAIL_SUBJECT'		=> 'Tienes que especificar un tema para su mensaje.',
 ));

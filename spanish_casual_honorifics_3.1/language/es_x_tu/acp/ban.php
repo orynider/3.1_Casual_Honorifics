@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Puedes quitar la exclusión a múltiples direcciones de email al mismo tiempo usando la combinación apropiada de ratón y teclado en tu navegador (por ejemplo, Ctrl+Clic). Las direcciones de email excluidas están en negrita.',
 
 	'IP_BAN'			=> 'Excluir una o más IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Habilite esto para quitar la IP ingresada de todas las exclusiones actuales.',
-	'IP_BAN_EXPLAIN'		=> 'Para expecificar más de una IP ingrese cada una en una nueva línea. Para especificar un rango de direcciones IP separa el inicio y el final con un guión (-), para especificar un comodín usa *',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Habilita esto para quitar la IP ingresada de todas las exclusiones actuales.',
+	'IP_BAN_EXPLAIN'		=> 'Para expecificar más de una IP ingresa cada una en una nueva línea. Para especificar un rango de direcciones IP separa el inicio y el final con un guión (-), para especificar un comodín usa *',
 	'IP_HOSTNAME'			=> 'Direcciones IP o hostnames',
 	'IP_NO_BANNED'			=> 'No hay direcciones IP excluidas',
 	'IP_UNBAN'			=> 'Levantar exclusión de IPs',
@@ -80,6 +80,6 @@ $lang = array_merge($lang, array(
 	'USER_BAN_EXPLAIN'			=> 'Para especificar más de un nombre de usuario, ingresa cada uno en una nueva línea. Usa el enlace <u>Buscar un usuario</u> para encontrar y añadir uno o más nombres de usuarios automáticamente.',
 	'USER_NO_BANNED'			=> 'No hay nombres de usuario excluidos',
 	'USER_UNBAN'				=> 'Levantar exclusión a usuarios por nombres de usuario',
-	'USER_UNBAN_EXPLAIN'		=> 'Puede quitar la exclusión a múltiples nombres de usuario al mismo tiempo usando la combinación apropiada de ratón y teclado en tu navegador (por ejemplo Ctrl+Clic). Los nombres de usuario <em>excluidos</em> están en negrita.',
+	'USER_UNBAN_EXPLAIN'		=> 'Puedes quitar la exclusión a múltiples nombres de usuario al mismo tiempo usando la combinación apropiada de ratón y teclado en tu navegador (por ejemplo Ctrl+Clic). Los nombres de usuario <em>excluidos</em> están en negrita.',
 
 ));
