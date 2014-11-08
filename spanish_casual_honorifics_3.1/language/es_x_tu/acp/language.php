@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Archivos de Administración',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Aquí puede instalar/desinstalar paquetes de idiomas. El paquete de idioma por defecto está marcado con un asterisco (*).',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Aquí puedes instalar/desinstalar paquetes de idiomas. El paquete de idioma por defecto está marcado con un asterisco (*).',
 
-    	'DELETE_LANGUAGE_CONFIRM'		=> '¿Está seguro que desea eliminar “%s”?',
+    	'DELETE_LANGUAGE_CONFIRM'		=> '¿Estás seguro que deseas eliminar “%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Paquetes de idiomas instalados',
 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'El paquete de idioma “%s” ha sido deshabilitado. Todos los usuarios de este idioma han sido reasignados al idioma por defecto del sitio.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Detalles del paquete de idioma',
 	'LANGUAGE_PACK_INSTALLED'			=> 'El paquete de idioma “%s” ha sido instalado correctamente.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'En los campos personalizados de Perfil, las cadenas de idioma serán copiadas del idioma por defecto. Por favor, cambie esto si es necesario.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'En los campos personalizados de Perfil, las cadenas de idioma serán copiadas del idioma por defecto. Por favor, cambia esto si es necesario.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nombre local',
 	'LANGUAGE_PACK_NAME'				=> 'Nombre',
@@ -64,9 +64,9 @@ $lang = array_merge($lang, array(
 	'MISSING_LANG_FILES'		=> 'Archivo de idioma perdido',
 	'MISSING_LANG_VARIABLES'	=> 'Variables de idioma perdidas',
 
-	'NO_FILE_SELECTED'					=> 'No ha especificado un archivo.',
-	'NO_LANG_ID'						=> 'No ha especificado un idioma.',
-	'NO_REMOVE_DEFAULT_LANG'			=> 'No puede deshabilitar el paquete de idioma por defecto.<br />Cambie el idioma por defecto del Sitio antes.',
+	'NO_FILE_SELECTED'					=> 'No has especificado un archivo.',
+	'NO_LANG_ID'						=> 'No has especificado un idioma.',
+	'NO_REMOVE_DEFAULT_LANG'			=> 'No puedes deshabilitar el paquete de idioma por defecto.<br />Cambia el idioma por defecto del sitio antes.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'		=> 'Ho hay paquetes desinstalados',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'Los siguientes archivos no se encuentran en la carpeta de idioma “%s”',

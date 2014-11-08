@@ -38,11 +38,11 @@ $lang = array_merge($lang, array(
 	'EXTENSION'					=> 'Extensión',
 	'EXTENSIONS'				=> 'Extensiones',
 	'EXTENSIONS_ADMIN'			=> 'Administrador de Extensiones',
-	'EXTENSIONS_EXPLAIN'		=> 'El Administrador de Extensiones es una herramienta en su foro phpBB que permite gestionar todas sus extensiones, su estado, y ver la información sobre ellas.',
+	'EXTENSIONS_EXPLAIN'		=> 'El Administrador de Extensiones es una herramienta en tu foro phpBB que permite gestionar todas sus extensiones, su estado, y ver la información sobre ellas.',
 	'EXTENSION_INVALID_LIST'	=> 'La extensión “%s” no es validá.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'La extensión seleccionada no está disponible en este foro, por favor verifique las versiones de phpBB y PHP (ver la página de detalles).',
+	'EXTENSION_NOT_AVAILABLE'	=> 'La extensión seleccionada no está disponible en este foro, por favor verifica las versiones de phpBB y PHP (ver la página de detalles).',
 	'EXTENSION_DIR_INVALID'		=> 'La extensión seleccionada tiene una estructura de directorio no válido y no se puede activar.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'La siguiente extensión no puede ser habilitada, por favor, verifique los requerimientos de la extensión.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'La siguiente extensión no puede ser habilitada, por favor, verifica los requerimientos de la extensión.',
 
 	'DETAILS'				=> 'Detalles',
 
@@ -57,9 +57,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Deshabilitando una extensión, conservara sus archivos y configuraciones, pero eliminara cualquier funcionalidad de la extensión.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Habilitando una extensión, le permitira usarla en su foro.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Actualmente se está borrando datos de la extensión. Por favor, no salga de esta página o refresque hasta que se complete.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Actualmente se está desactivando la extensión. Por favor, no salga de esta página o refresque hasta que se complete.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Actualmente se está activando la extensión. Por favor, no salga de esta página o refresque hasta que se complete.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Actualmente se está borrando datos de la extensión. Por favor, no salgas de esta página o refresques hasta que se complete.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Actualmente se está desactivando la extensión. Por favor, no salgas de esta página o refresques hasta que se complete.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Actualmente se está activando la extensión. Por favor, no salgas de esta página o refresques hasta que se complete.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Los datos de la extensión han sido borrados correctamente',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'La extensión ha sido deshabilitada correctamente',
@@ -70,21 +70,21 @@ $lang = array_merge($lang, array(
 	'EXTENSION_OPTIONS'		=> 'Opciones',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Actualización de una extensión',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Deshabilite la extensión</li>
-			<li>Elimine archivos de la extensión del sistema de archivos</li>
-			<li>Suba los nuevos archivos</li>
-			<li>Habilite la extensión</li>
+			<li>Deshabilita la extensión</li>
+			<li>Elimina archivos de la extensión del sistema de archivos</li>
+			<li>Sube los nuevos archivos</li>
+			<li>Habilita la extensión</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Eliminación completa de una extensión ',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Deshabilite la extensión</li>
-			<li>Borre datos de la extensión</li>
-			<li>Elimine los archivos de la extensión del sistema de archivos </li>
+			<li>Deshabilita la extensión</li>
+			<li>Borra datos de la extensión</li>
+			<li>Elimina los archivos de la extensión del sistema de archivos </li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> '¿Está seguro de querer borrar los datos asociados de “%s”?<br /><br />¡Esto elimina todos los datos y configuraciones, y no se puede deshacer!',
-	'EXTENSION_DISABLE_CONFIRM'		=> '¿Está seguro de querer deshabilitar la extensión “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'		=> '¿Está seguro de querer habilitar la extensión “%s”?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> '¿Estás seguro de querer borrar los datos asociados de “%s”?<br /><br />¡Esto elimina todos los datos y configuraciones, y no se puede deshacer!',
+	'EXTENSION_DISABLE_CONFIRM'		=> '¿Estás seguro de querer deshabilitar la extensión “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'		=> '¿Estás seguro de querer habilitar la extensión “%s”?',
     	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> '¿Está seguro de querer forzar el uso de la versión inestable?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Volver a la lista de extensiones',

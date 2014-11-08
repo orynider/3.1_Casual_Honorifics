@@ -39,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aquí puede manejar toda clase de módulos. Por favor observe que el Panel de Control de Administración (PCA) tiene una estructura de menú de tres niveles (Categoría -> SubCategoría -> Módulo) por lo cual los otros tienen una estructura de menú de dos niveles (Categoría -> Módulo) la cual debe ser respetada. Por favor dese cuenta que puede bloquearse usted a si mismo si deshabilita o borra el módulo de administración de módulos.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aquí puedes manejar toda clase de módulos. Por favor observa que el Panel de Control de Administración (PCA) tienes una estructura de menú de tres niveles (Categoría -> SubCategoría -> Módulo) por lo cual los otros tienen una estructura de menú de dos niveles (Categoría -> Módulo) la cual debe ser respetada. Por favor, ten en cuenta que puedes bloquearte a ti mismo si deshabilitas o borras el módulo de Administración de módulos.',
 	'ADD_MODULE'					=> 'Añadir módulo',
-	'ADD_MODULE_CONFIRM'			=> '¿Está seguro de que quiere añadir el módulo seleccionado?',
+	'ADD_MODULE_CONFIRM'			=> '¿Estás seguro de querer añadir el módulo seleccionado?',
 	'ADD_MODULE_TITLE'				=> 'Añadir título',
 
-	'CANNOT_REMOVE_MODULE'	=> 'No se puede eliminar el módulo, tiene hijos asignados. Por favor borre o mueva todos los hijos antes de realizar esta acción.',
+	'CANNOT_REMOVE_MODULE'	=> 'No se puede eliminar el módulo, tiene hijos asignados. Por favor, borra o mueve todos los hijos antes de realizar esta acción.',
 	'CATEGORY'				=> 'Categoría',
 	'CHOOSE_MODE'			=> 'Elegir modo',
 	'CHOOSE_MODE_EXPLAIN'	=> 'Elegir en qué modo se usará el módulo.',
@@ -54,10 +54,10 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATED_MODULE'	=> 'Módulo desactivado',
 	'DELETE_MODULE'			=> 'Borrar módulo',
-	'DELETE_MODULE_CONFIRM'	=> '¿Está seguro de que quiere borrar este módulo?',
+	'DELETE_MODULE_CONFIRM'	=> '¿Estás seguro de querer borrar este módulo?',
 
 	'EDIT_MODULE'			=> 'Editar módulo',
-	'EDIT_MODULE_EXPLAIN'	=> 'Aquí puede introducir parámetros específicos del módulo',
+	'EDIT_MODULE_EXPLAIN'	=> 'Aquí puedes introducir parámetros específicos del módulo',
 
 	'HIDDEN_MODULE'			=> 'Módulo oculto',
 
@@ -65,14 +65,14 @@ $lang = array_merge($lang, array(
 	'MODULE_ADDED'				=> 'Módulo añadido correctamente.',
 	'MODULE_DELETED'			=> 'Módulo eliminado correctamente.',
 	'MODULE_DISPLAYED'			=> 'Módulo mostrado',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'Si no quiere mostrar este módulo, pero quiere usarlo, seleccione No.',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Si no quieres mostrar este módulo, pero quieres usarlo, seleccione No.',
 	'MODULE_EDITED'				=> 'Módulo editado correctamente.',
 	'MODULE_ENABLED'			=> 'Módulo habilitado',
 	'MODULE_LANGNAME'			=> 'Idioma del módulo',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Introduzca el nombre del módulo. Use idioma constante si el nombre es tomado del archivo de idioma.',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Introduce el nombre del módulo. Usa idioma constante si el nombre es tomado del archivo de idioma.',
 	'MODULE_TYPE'				=> 'Tipo de módulo',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Imposible convertir categoría en módulo. Por favor borre/mueva todos los hijos antes de realizar esta acción.',
+	'NO_CATEGORY_TO_MODULE'	=> 'Imposible convertir categoría en módulo. Por favor, borra/mueve todos los hijos antes de realizar esta acción.',
 	'NO_MODULE'				=> 'No hay módulos.',
 	'NO_MODULE_ID'			=> 'No se especificó ID de módulo.',
 	'NO_MODULE_LANGNAME'	=> 'No se especificó idioma del módulo.',
@@ -81,5 +81,5 @@ $lang = array_merge($lang, array(
 	'PARENT'				=> 'Padre',
 	'PARENT_NO_EXIST'		=> 'Padre no existe.',
 
-	'SELECT_MODULE'			=> 'Seleccione un módulo',
+	'SELECT_MODULE'			=> 'Selecciona un módulo',
 ));
