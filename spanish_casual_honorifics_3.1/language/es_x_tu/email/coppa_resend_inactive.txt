@@ -4,7 +4,7 @@ Subject: Bienvenido a "{SITENAME}"
 
 De conformidad con COPPA, tu cuenta permanece inactiva.
 
-Por favor imprime este mensaje y que tu padre/madre o tutor legal lo firme y ponga la fecha. Después envíalo por fax a:
+Por favor, imprime este mensaje y que tu padre/madre o tutor legal lo firme y ponga la fecha. Después envíalo por fax a:
 
 {FAX_INFO}
 
@@ -33,7 +33,7 @@ Fecha: _______________
 ------------------------------ CORTE POR AQUÍ ------------------------------
 
 
-Una vez que el/la administrador(a) haya recibido el formulario de arriba vía fax o correo tradicional tu cuenta será activada.
+Una vez que el/la Administrador(a) haya recibido el formulario de arriba vía fax o correo tradicional tu cuenta será activada.
 
 Tu contraseña ha sido guardada de forma segura en nuestra base de datos y no puede ser recuperada. En caso de que sea olvidada, podrás restaurarla usando la dirección de email asociada a tu cuenta.
 
