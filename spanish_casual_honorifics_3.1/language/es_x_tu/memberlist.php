@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Antes',
 
-	'CC_EMAIL'				=> 'Enviar copia de este email a si mismo.',
+	'CC_SENDER'				=> 'Enviar copia de este email a si mismo.',
  	'CONTACT_ADMIN'			=> 'Contactar con un Administrador del Foro',
 
 	'DEST_LANG'				=> 'Idioma',
