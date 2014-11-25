@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Volver a la lista de estilos instalados',
  	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instalas más estilos',
 	'STYLE_NAME'				=> 'Nombre del estilo',
+	'STYLE_NAME_RESERVED'		=> 'Estilo "%s" no se puede instalar, porque el nombre está reservado.',
 	'STYLE_NOT_INSTALLED'		=> 'Estilo "%s" no se instaló.',
 	'STYLE_PATH'				=> 'Ruta del estilo',
 	'STYLE_UNINSTALL'			=> 'Desinstalar',
