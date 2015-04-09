@@ -109,8 +109,8 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'Página principal',
 	'AUTHOR_ROLE'			=> 'Rol',
 
-	'NOT_UP_TO_DATE'		=> '%s no es hasta la fecha',
-	'UP_TO_DATE'			=> '%s es hasta la fecha',
+	'NOT_UP_TO_DATE'		=> '%s no está al día',
+	'UP_TO_DATE'			=> '%s está al día',
 	'ANNOUNCEMENT_TOPIC'	=> 'Anuncio del lanzamiento',
 	'DOWNLOAD_LATEST'		=> 'Descargar versión',
 	'NO_VERSIONCHECK'		=> 'No hay información de comprobación de la versión dada.',
