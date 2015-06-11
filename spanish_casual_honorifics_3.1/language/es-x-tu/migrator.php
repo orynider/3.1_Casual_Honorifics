@@ -51,6 +51,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_RUNNING'         => 'Instalando esquema: %s.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'La migración no es válida. Una sentencia if ayudante le falta una condición.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'La migración no es válida. Una sentencia if ayudante no se encuentra, la llamada válida a un paso de la migración.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'La migración no es válida. Una función personalizada exigible no pudo ser llamada.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'La migración no es válida. Se encontró un tipo de herramienta de migración desconocido.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'La migración no es válida. Se ha encontrado una herramienta de migración definido.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'La migración no es válida. Se ha encontrado un método de herramienta de migración definido.',
 
 	'MODULE_ERROR'						=> 'Se ha producido un error al crear un módulo: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un archivo de información del módulo necesario, no ha sido encontrado: %2$s',
