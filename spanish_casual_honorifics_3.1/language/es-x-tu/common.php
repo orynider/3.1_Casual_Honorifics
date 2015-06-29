@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'La URL que has especificado no es válida.',
 	'AVATAR_URL_NOT_FOUND'			=> 'No se puede encontrar el archivo especificado.',
 	'AVATAR_WRONG_FILESIZE'			=> 'El avatar debe estar entre 0 y %1$d %2$s.',
-	'AVATAR_WRONG_SIZE'				=> 'El avatar debe ser al menos %5$s de ancho, %6$s de alto y como máximo %1$s de ancho y %2$s de alto. El avatar enviado es %3$s de ancho y %4$s de alto.',
+	'AVATAR_WRONG_SIZE'				=> 'El avatar enviado es de %5$s de ancho, y %6$s de alto. Los avatars deben tener al menos %1$s de ancho y %2$s de alto, pero no deben ser mayores de %3$s ancho y %4$s de alto.',
 
 	'BACK_TO_TOP'			=> 'Arriba',
 	'BACK_TO_PREV'			=> 'Regresa a la página anterior',
