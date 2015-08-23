@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Las siguientes variables no se encuentran en el paquete “%s”',
 
 	'UNINSTALLED_LANGUAGE_PACKS'		=> 'Paquetes desinstalados',
+
+	'BROWSE_STYLES_DATABASE'	=> 'Navegar por la base de datos de estilos',
 ));
