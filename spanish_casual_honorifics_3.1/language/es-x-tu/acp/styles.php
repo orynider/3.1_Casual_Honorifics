@@ -84,4 +84,5 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Usado por (incluyendo robots)',
 
 	'UNINSTALL_DEFAULT'		=> 'No puedes desinstalar el estilo por defecto.',
+	'BROWSE_STYLES_DATABASE'	=> 'Navegar por la base de datos de estilos',
 ));
