@@ -74,5 +74,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'		=> 'Paquetes desinstalados',
 
-	'BROWSE_STYLES_DATABASE'	=> 'Navegar por la base de datos de estilos',
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Navegar por la base de datos de paquetes de idioma',
 ));
