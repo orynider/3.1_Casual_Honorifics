@@ -329,6 +329,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Tipo de archivo de imagen %d de tipo mime %s no soportado.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Tipo de archivo no concuerda: se esperaba la extension %1$s pero se proporciona la extension %2$s.',
 	'IN'	=> 'en',
+	'INACTIVE'					=> 'Inactivo',
 	'INDEX'	=> 'Página principal',
 	'INFORMATION'	=> 'Información',
 	'INSECURE_REDIRECT'			=> 'Has tratado de redirigir una URL potencialmente insegura.',
@@ -467,9 +468,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Tema no aprobado</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprobación del tema</strong> requerida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'El tipo de notificación "%s" no se encuentra en el sistema de archivos.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activación requerida</strong> para nuevo usuario registrado: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activación requerida</strong> para desactivado o nuevo usuario registrado: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
-    'NOTIFICATION_MANY_OTHERS'			=> 'otros',
+    	'NOTIFICATION_MANY_OTHERS'			=> 'otros',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> 'otros %d',
 	),
