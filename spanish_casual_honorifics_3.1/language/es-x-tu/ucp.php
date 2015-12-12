@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Alguien te citó en un mensaje',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Alguien reporto un mensaje',
 	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Alguien creó un nuevo tema en un foro al que estás suscrito',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nuevo usuario registrado requiere activación',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Usuario requiere activación',
 
 	'NOTIFY_METHOD'					=> 'Método de notificación',
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos',
