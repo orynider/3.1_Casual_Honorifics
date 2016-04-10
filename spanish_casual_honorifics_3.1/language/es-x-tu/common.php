@@ -815,7 +815,7 @@ $lang = array_merge($lang, array(
 	'USERS'	=> 'Usuarios',
 	'USE_PERMISSIONS'	=> 'Transferirme los permisos del Usuario',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Lo sentimos pero no estás autorizado a usar esta opción. Puede que te hayas registrado hace poco aquí y necesites participar más para poder hacer uso de esta opción.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Lo sentimos pero no estás autorizado a usar esta opción. Puede que te hayas registrado hace poco aquí y necesites participar más en las discusiones para poder hacer uso de esta opción.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',
 	'VIEWED'	=> 'Visto',
