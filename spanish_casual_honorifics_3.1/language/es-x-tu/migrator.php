@@ -50,6 +50,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración "%1$s" no se ha realizado, falta la migración "%2$s".',
 	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_RUNNING'         => 'Instalando esquema: %s.',
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'La migración no es válida. Una sentencia if ayudante le falta una condición.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'La migración no es válida. Una sentencia if ayudante no se encuentra, la llamada válida a un paso de la migración.',
@@ -59,9 +60,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'La migración no es válida. Se ha encontrado un método de herramienta de migración definido.',
 
 	'MODULE_ERROR'						=> 'Se ha producido un error al crear un módulo: %s',
+	'MODULE_EXISTS'						=> 'Un módulo ya existe: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Varios módulos con el nombre del padre ya existen: %s. Trata de usar antes/después de las claves para aclarar la ubicación del módulo.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un archivo de información del módulo necesario, no ha sido encontrado: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Un módulo requerido no existe: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'No se puede determinar el identificador de módulo padre: %s',
 	'PERMISSION_NOT_EXIST'				=> 'El ajuste de permiso "%s" inesperadamente, no existe.',
 
 	'ROLE_NOT_EXIST'					=> 'El rol de permiso "%s" inesperadamente, no existe.',
