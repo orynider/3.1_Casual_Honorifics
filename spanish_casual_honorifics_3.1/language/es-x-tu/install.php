@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Verificar configuración del administrador',
 	'ADMIN_USERNAME'			=> 'Nombre del administrador',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Por favor, introduzca un nombre de entre 3 y 20 caracteres de longitud.',
-	'APP_MAGICK'				=> 'Soporte Imagemagikc [ Adjuntos ]',
+	'APP_MAGICK'				=> 'Soporte ImageMagikc [ Adjuntos ]',
 	'AUTHOR_NOTES'				=> 'Notas del autor<br />» %s',
 	'AVAILABLE'					=> 'Disponible',
 	'AVAILABLE_CONVERTORS'		=> 'Conversores disponibles',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'No se puede entender %s #%d, tabla %s ("%s")',
 	'NO_CONVERTORS'				=> 'No hay disponibles conversores para usar.',
 	'NO_CONVERT_SPECIFIED'		=> 'No especificó conversor.',
-	'NO_LOCATION'				=> 'No se puede determinar la ubicación. Si está seguro de que Imagemagick está instalado, tiene que especificar su ubicación más tarde con el Panel de Control de Administración (PCA)',
+	'NO_LOCATION'				=> 'No se puede determinar la ubicación. Si está seguro de que ImageMagick está instalado, tiene que especificar su ubicación más tarde con el Panel de Control de Administración (PCA)',
 	'NO_TABLES_FOUND'			=> 'No se encontraron tablas.',
 
 	'OVERVIEW_BODY'				=> '¡Bienvenido a phpBB3!<br /><br />phpBB® es la solución de foros libres más usada en el mundo. phpBB3 es el último instalador en una línea de paquetes que comenzó en el año 2000. Como sus predecesores phpBB3 es rico en implementaciones, amigable para el usuario y con soporte completo por el equipo de phpBB. phpBB3 mejora, y mucho, lo que ya hizo popular a phpBB2 y añade implementaciones ampliamente solicitadas que no estaban presentes en versiones previas. Esperamos que cumpla de sobra con sus espectativas. <br /><br />Este sistema de instalación le guiará para instalar phpBB3, actualizando a la última versión de phpBB3 desde versiones anteriores, así como convirtiendo a phpBB3 desde otros sistemas de foros (incluyendo phpBB2). Para más información, le aconsejamos que lea <a href="../docs/INSTALL.html">la guía de instalación</a>.<br /><br />Para leer la licencia de phpBB3 o para saber como obtener soporte y nuestras condiciones al respecto, por favor seleccione las opciones deseadas del menú lateral. Para continuar, por favor seleccione la pestaña apropiada de arriba.',
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB3 funcionará aún si estos parámetros están habilitados, pero si es posible, se recomiendo que register_globals este deshabilitado en su instalación PHP por razones de seguridad.',
 	'PHP_SAFE_MODE'					=> 'Modo seguro',
 	'PHP_SETTINGS'					=> 'Versión y parámetros PHP',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Obligatorio</strong> - Necesitá al menos la versión 4.3.3 de PHP con el fin de instalar phpBB3. Si <var>safe mode</var> se muestra debajo su instalación PHP está funcionando en ese modo. Esto provocará limitaciones en la administración remota y en implementaciones similares.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Obligatorio</strong> - Necesitá al menos la versión 4.3.3 de PHP (PHP 7 no es soportado) con el fin de instalar phpBB3. Si <var>safe mode</var> se muestra debajo su instalación PHP está funcionando en ese modo. Esto provocará limitaciones en la administración remota y en implementaciones similares.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'Parámetro PHP <var>allow_url_fopen</var> está habilitado',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcional</strong> - Este parámetro es opcional, sin embargo ciertas funciones de phpBB como avatares fuera del sitio no funcionarán adecuadamente sin él.',
-	'PHP_VERSION_REQD'				=> 'Versión PHP >= 5.3.3',
+	'PHP_VERSION_REQD'				=> 'Versión PHP: >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'Post ID',
 	'PREFIX_FOUND'					=> 'Una revisión de sus tablas ha mostrado una instalación válida usando <strong>%s</strong> como prefijo de tabla.',
 	'PREPROCESS_STEP'				=> 'Ejecutando funciones/consultas previas',
@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Continuar la actualización de la base de datos',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'La actualización de la base de datos en la carpeta de instalación está desactualizada. Por favor, asegúrese de haber subido la versión correcta del archivo.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'La actualización de la base de datos aún no se ha completado.',
+	'DATABASE_VERSION'					=> 'Versión de la base de datos',
 	'DELETE_USER_REMOVE'				=> 'Borrar usuario y eliminar sus mensajes',
 	'DELETE_USER_RETAIN'				=> 'Borrar usuario, pero mantener sus mensajes',
 	'DESTINATION'						=> 'Archivo de destino',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Los siguientes archivos no han sido modificados y coinciden con los archivos originales de phpBB para la versión a la cual quiere actualizar.',
 	'FILES_UP_TO_DATE'				=> 'Archivos actualizados',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Los siguientes archivos ya han sido actualizados.',
+	'FILES_VERSION'					=> 'Versión de archivos',
 	'FTP_SETTINGS'					=> 'Configuración FTP',
 	'FTP_UPDATE_METHOD'				=> 'Subir por FTP',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'Los archivos actualizados no tienen la fecha correcta. Los archivos actualizados que se encontraron son para actualizar de phpBB %1$s a phpBB %2$s pero la última versión de phpBB es %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'El paquete actual actualiza a la versión',
+	'PACKAGE_VERSION'					=> 'Versión del paquete instalado',
 	'PERFORM_DATABASE_UPDATE'			=> 'Realizar actualización de base de datos',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Debajo puede encontrar un enlace al script de actualización de la base de datos. Este script necesita ejecutarse separadamente porque actualizar la base de datos si está identificado puede acarrear comportamientos inesperados. La actualización de la base de datos puede tardar un rato, por favor no detenga la ejecución aunque parezca estar detenida. Después de realizar la actualización siga el enlace para continuar el proceso de actualización.',
 	'PREVIOUS_VERSION'					=> 'Versión previa',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Actualizando esquema de base de datos',
 	'UPDATE_FILES'					=> 'Archivos actualizados',
 	'UPDATE_FILES_NOTICE'			=> 'Por favor, asegúrese de que ha actualizado también los archivos de su sitio, este archivo está solamente actualizando su base de datos',
+	'UPDATE_INCOMPLETE'				=> 'La instalación de phpBB no se ha actualizado correctamente.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, lee la siguiente información con el fin de corregir este error.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Actualización incompleta</h1>
+
+		<p>Nos dimos cuenta de que la última actualización de la instalación de phpBB no se ha completado. Visita el <a href="%1$s" title="%1$s">script database_update</a> y ejecútalo. Si no lo tienes, por favor <a href="https://www.phpbb.com/downloads/" title="Descargas phpBB">descarga la versión de tu paquete</a>, sube la carpeta "install" al directorio raíz de tu phpBB (donde está tu archivo config.php) y <a href="%1$s" title="%1$s">ejecúta el script de actualización de la base de datos</a>.</p>',
+
 	'UPDATE_INSTALLATION'			=> 'Instalación de phpBB actualizada',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Con esta opción, es posible actualizar su instalacion de phpBB a la última versión.<br />Durante el proceso se verificará la integridad de todos los archivos. Podrá también revisar las diferencias y archivos antes de actualizar.<br /><br /> La actualización de archivos en si misma se puede hacer de dos formas distintas.</p><h2>Actualización Manual</h2> <p>Con esta actualización solamente descarga su paquete de archivos cambiados personalizado para asegurarse de no perder sus modificaciones de archivos (MODs).',
 	'UPDATE_INSTRUCTIONS'			=> '
