@@ -1,4 +1,4 @@
-phpBB 3.1.9 Casual Honorifics (Tú)
+phpBB 3.1 Casual Honorifics (Tú)
 ================================
 
 Official Spanish Translation for phpBB 3.1 Casual Honorifics (TÚ)
