@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Deshabilita la extensión especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Habilita la extensión especificada.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Encuentra las migraciones que no dependían.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repara la estructura de los foros y módulos.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtiene el valor de una opción de configuración',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor entero de una opción de configuración',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista de todas las extensiones de la base de datos y del sistema de archivos.',
@@ -64,6 +65,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula la columna de user_email_hash de la tabla de usuarios.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Establece el valor de una opción de configuración solamente si el valor antiguo coincide con el valor actual',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Establece el valor de una opción de configuración',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualiza los hashes de contraseñas caducadas para ser hash con bcrypt.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'No se pudo deshabilitar la extensión %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Extensión %s deshabilitada correctamente',
@@ -77,7 +79,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Deshabilitada',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Reparado correctamente el árbol de estructura de los foros y módulos.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Todos los hashes de correo se han recalculado correctamente.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Contraseñas caducadas correctamente actualizadas los hashes para bcrypt.'
 ));
 // Additional help for commands.
 $lang = array_merge($lang, array(

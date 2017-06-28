@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'FORUM_INDEX'	=> 'Índice general',
 	'FORUM_LINK'	=> 'Enlace al Foro',
 	'FORUM_LOCATION'	=> 'Localización del foro',
-	'FORUM_LOCKED'	=> 'Foro cerrado',
+	'FORUM_LOCKED'	=> 'Cerrado',
 	'FORUM_RULES'	=> 'Reglas del Foro',
 	'FORUM_RULES_LINK'	=> 'Por favor, haz clic para ver las reglas del Foro',
 	'FROM'	=> 'de',
@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Aficiones',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Desafío Digest inválido.',
 	'INVALID_EMAIL_LOG'			=> '¿<strong>%s</strong> posiblemente una dirección de email inválida?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'El feed seleccionado intentó buscar archivos adjuntos con restricciones no válidas.',
 	'INVALID_PLURAL_RULE'		=> 'La regla plural escogida no es válida. Los valores válidos son números enteros entre 0 y 15.',
 	'IP'	=> 'IP',
 	'IP_BLACKLISTED'	=> 'Tu IP %1$s ha sido bloqueada porque está en la lista negra. Para más detalles, por favor lee <a href="%2$s">%2$s</a>.',
@@ -357,7 +358,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'	=> 'No se puede conectar al servidor LDAP',
 	'LDAP_SEARCH_FAILED'            => 'Ocurrió un error mientras se buscaba en el directorio LDAP.',
 	'LEGEND'	=> 'Referencia',
-    	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Las búsquedas en directo no están permitidas.',
+    'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Las búsquedas en directo no están permitidas.',
 	'LOADING'							=> 'Cargando',
 	'LOCATION'	=> 'Ubicación',
 	'LOCK_POST'	=> 'Mensaje cerrado',
@@ -435,13 +436,13 @@ $lang = array_merge($lang, array(
 	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
-    	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
+    // Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
-    	// A, B, C and others replied...
+    // A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '<strong>Respuesta</strong> de %1$s en tema favorito:',
 	),
@@ -572,10 +573,10 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, que actualmente está en tu lista de ignorados, crear este mensaje.',
 	'POST_DISPLAY'			=> '%1$sMostrar este mensaje%2$s.',
 	'POST_DAY'				=> '%.2f mensajes por día',
-    	'POST_DELETED_ACTION'	=> 'Mensaje borrado:',
-    	'POST_DELETED'			=> 'Este mensaje ha sido borrado.',
-	'POST_DELETED_BY'		=> '<strong>%2$s</strong> borró mensaje de <strong>%1$s</strong> el %3$s.',
-	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> borró mensaje de <strong>%1$s</strong> el %3$s por la siguiente razón: %4$s',	
+    'POST_DELETED_ACTION'	=> 'Mensaje borrado:',
+    'POST_DELETED'			=> 'Este mensaje ha sido borrado.',
+	'POST_DELETED_BY'		=> '<strong>%2$s</strong> mensaje borrado por <strong>%1$s</strong> en %3$s.',
+	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> mensaje borrado por <strong>%1$s</strong> en %3$s por la siguiente razón: %4$s',	
 	'POST_DETAILS'			=> 'Detalles del mensaje',
 	'POST_NEW_TOPIC'		=> 'Nuevo tema',
 	'POST_PCT'				=> '%.2f%% de todos los mensajes',
@@ -586,8 +587,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Asunto',
 	'POST_TIME'				=> 'Fecha publicación',
 	'POST_TOPIC'			=> 'Publicar un nuevo tema',
-    	'POST_UNAPPROVED_ACTION'	=> 'Mensaje esperando aprobación:',
-    	'POST_UNAPPROVED'		=> 'Este mensaje no ha sido aprobado.',
+    'POST_UNAPPROVED_ACTION'	=> 'Mensaje esperando aprobación:',
+    'POST_UNAPPROVED'		=> 'Este mensaje no ha sido aprobado.',
 	'POWERED_BY'			=> 'Desarrollado por %s',
 	'PREVIEW'				=> 'Vista previa',
 	'PREVIOUS'				=> 'Anterior',
